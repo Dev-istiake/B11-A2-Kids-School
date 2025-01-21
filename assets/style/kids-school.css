@@ -42,7 +42,6 @@ p {
 #header-sect {
    width: 100%;
    padding: 0 8.03%;
-   position: fixed;
    z-index: 999;
 }
 
@@ -110,4 +109,46 @@ p {
 #nav-bar #menu-icon {
    font-size: 1.4rem;
    display: none;
+}
+
+/* Style of Hero section */
+
+#hero-sect {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 50px;
+}
+
+#hero-desc .hero-title {
+   font-size: 3.5rem;
+}
+
+#hero-desc .hero-title span:nth-child(1) {
+   color: var(--primary-color-or);
+}
+
+#hero-desc .hero-title span:nth-child(3) {
+   color: var(--color-sky-blue);
+}
+
+#hero-sect .detail-info {
+   margin: 24px 0;
+   width: 56%;
+}
+
+.enroll-btn {
+   padding: 10px 47px;
+   color: var(--color-white);
+   background-color: var(--color-code-gray);
+   border: none;
+   border-radius: 8px;
+}
+
+#hero-kids img {
+   width: 100%;
+}
+
+#main-sect {
+   height: 800px;
 }

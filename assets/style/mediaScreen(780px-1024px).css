@@ -22,4 +22,13 @@
    #nav-bar .nav-logo img {
       width: 32%;
    }
+
+   #hero-desc .hero-title {
+      font-size: 2.5rem;
+   }
+
+   #hero-sect .detail-info {
+      width: 100%;
+      font-size: 0.9rem;
+   }
 }

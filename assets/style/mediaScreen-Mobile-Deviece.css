@@ -5,9 +5,8 @@
       padding: 0 3.4%;
    }
 
-   #nav-bar #menu-icon {
-      display: block;
-      margin-right: 2.5%;
+   #nav-bar .nav-title {
+      display: none;
    }
 
    #nav-bar .nav-menu {
@@ -16,5 +15,32 @@
 
    #nav-bar .contact-btn {
       display: none;
+   }
+
+   #nav-bar #menu-icon {
+      display: block;
+      margin-right: 2.5%;
+   }
+
+   #hero-sect {
+      flex-direction: column-reverse;
+   }
+
+   #hero-desc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   #hero-desc .hero-title {
+      font-size: 2rem;
+      text-align: center;
+   }
+
+   #hero-sect .detail-info {
+      width: 83%;
+      font-size: 0.8rem;
+      text-align: center;
    }
 }
