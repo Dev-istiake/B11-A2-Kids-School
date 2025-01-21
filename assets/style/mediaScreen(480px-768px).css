@@ -5,6 +5,7 @@
       padding: 0 5%;
    }
 
+   /* Style of nav Section */
    #nav-bar {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -33,6 +34,7 @@
       width: 18%;
    }
 
+   /* Style of Hero Section */
    #hero-desc .hero-title {
       font-size: 1.7rem;
    }
@@ -40,5 +42,41 @@
    #hero-sect .detail-info {
       width: 100%;
       font-size: 0.8rem;
+   }
+
+   /* Style of curriculum section */
+   #main-sect {
+      padding: 0 5%;
+   }
+
+   #curriculum-sect > .title {
+      font-size: 2rem;
+   }
+
+   #card-cntr {
+      gap: 12px;
+   }
+
+   #card-cntr .card-title {
+      font-size: 1.1rem;
+      text-align: center;
+   }
+
+   #card-cntr .cards {
+      padding: 30px 2.5% 30px 2.5%;
+   }
+
+   #card-cntr .cards img {
+      margin-bottom: 30px;
+   }
+
+   #card-cntr > .card-1 img {
+      margin-bottom: 19px;
+   }
+
+   #card-cntr .cards p {
+      font-size: 0.85rem;
+      margin: 15px 0 15px 0;
+      line-height: 21px;
    }
 }

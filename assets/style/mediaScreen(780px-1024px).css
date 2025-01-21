@@ -5,6 +5,8 @@
       padding: 0 5%;
    }
 
+   /* Style of nav Section */
+
    #nav-bar .nav-title {
       font-size: 1.7rem;
    }
@@ -23,6 +25,8 @@
       width: 32%;
    }
 
+   /* Style of Hero Section */
+
    #hero-desc .hero-title {
       font-size: 2.5rem;
    }
@@ -30,5 +34,38 @@
    #hero-sect .detail-info {
       width: 100%;
       font-size: 0.9rem;
+   }
+
+   /* Style of curriculum section */
+
+   #main-sect {
+      padding: 0 5%;
+   }
+
+   #curriculum-sect > .title {
+      font-size: 2.5rem;
+   }
+
+   #card-cntr {
+      gap: 20px;
+   }
+
+   #card-cntr .card-title {
+      font-size: 1.3rem;
+      text-align: center;
+   }
+
+   #card-cntr .cards {
+      padding: 39px 2.5% 35px 2.5%;
+   }
+
+   #card-cntr .cards img {
+      margin-bottom: 30px;
+   }
+
+   #card-cntr .cards p {
+      font-size: 0.9rem;
+      margin: 15px 0 15px 0;
+      line-height: 24px;
    }
 }

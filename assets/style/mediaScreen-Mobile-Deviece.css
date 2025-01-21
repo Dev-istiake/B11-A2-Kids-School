@@ -2,11 +2,20 @@
 
 @media only screen and (max-width: 480px) {
    #header-sect {
-      padding: 0 3.4%;
+      padding: 0 5%;
+   }
+
+   /* Style of nav Section */
+   #nav-bar {
+      margin-bottom: 40px;
    }
 
    #nav-bar .nav-title {
       display: none;
+   }
+
+   #nav-bar .nav-logo img {
+      width: 80%;
    }
 
    #nav-bar .nav-menu {
@@ -22,6 +31,17 @@
       margin-right: 2.5%;
    }
 
+   #header-sect::after {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 2px;
+      background-color: var(--primary-color-or);
+   }
+
+   /* Style of Hero Section */
    #hero-sect {
       flex-direction: column-reverse;
    }
@@ -42,5 +62,41 @@
       width: 83%;
       font-size: 0.8rem;
       text-align: center;
+   }
+
+   /* Style of curriculum section */
+   #main-sect {
+      padding: 0 5%;
+   }
+
+   #card-cntr {
+      flex-direction: column;
+   }
+
+   #curriculum-sect > .title {
+      font-size: 2rem;
+   }
+
+   #card-cntr {
+      gap: 12px;
+   }
+
+   #card-cntr .card-title {
+      font-size: 1.1rem;
+      text-align: center;
+   }
+
+   #card-cntr .cards {
+      padding: 35px 14% 35px 14%;
+   }
+
+   #card-cntr .cards img {
+      margin-bottom: 30px;
+   }
+
+   #card-cntr .cards p {
+      font-size: 0.8rem;
+      margin: 20px 0 20px 0;
+      line-height: 21px;
    }
 }

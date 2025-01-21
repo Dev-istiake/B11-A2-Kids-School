@@ -41,13 +41,13 @@ p {
 
 #header-sect {
    width: 100%;
-   padding: 0 8.03%;
-   z-index: 999;
+   padding: 0 11%;
 }
 
 /* Style of nav-bar */
 
 #nav-bar {
+   position: relative;
    width: 100%;
    padding: 20px 0;
    display: flex;
@@ -143,12 +143,105 @@ p {
    background-color: var(--color-code-gray);
    border: none;
    border-radius: 8px;
+   font-size: 20px;
+   font-weight: 700;
 }
 
 #hero-kids img {
    width: 100%;
 }
 
+/* Style of curriculum section */
+
 #main-sect {
-   height: 800px;
+   padding: 0 11%;
+}
+
+#curriculum-sect {
+   padding: 60px 0;
+   background: url(../images/bg.png);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+/* Style of card section */
+#card-cntr {
+   margin: 100px 0 80px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 55px;
+}
+
+#curriculum-sect > .title {
+   font-size: 2.87rem;
+}
+
+#card-cntr .cards {
+   padding: 65px 4.5% 85px 4.5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 30px;
+   box-shadow: inset 0px 0px 28.3px 0.94px #0000000d;
+}
+
+#card-cntr > .card-1 {
+   background: linear-gradient(180deg, #def5ff, #ffffff00 40%), #ffffff;
+   border: 1px solid #def5ff;
+}
+#card-cntr > .card-2 {
+   background: linear-gradient(180deg, #fff4dc, #ffffff00 40%), #ffffff;
+   border: 1px solid #fff4dc;
+}
+#card-cntr > .card-3 {
+   background: linear-gradient(180deg, #eee1ff, #ffffff00 40%), #ffffff;
+   border: 1px #eee1ff;
+}
+
+#card-cntr .cards img {
+   margin-bottom: 50px;
+}
+
+#card-cntr .card-title {
+   font-size: 1.5rem;
+}
+
+#card-cntr .cards p {
+   font-size: 1rem;
+   margin: 35px 0 40px 0;
+   line-height: 30px;
+   text-align: center;
+}
+
+#card-cntr .card-btn {
+   font-size: 0.99rem;
+   border: none;
+   background-color: transparent;
+}
+
+#card-cntr > .card-1 > .card-btn {
+   color: #64c8ff;
+}
+#card-cntr > .card-2 > .card-btn {
+   color: #f0aa00;
+}
+#card-cntr > .card-3 > .card-btn {
+   color: #8700ff;
+}
+
+/* Style of slide button */
+
+#slide-btn button {
+   padding: 14px 24px;
+   background-color: var(--primary-color-or);
+   border-radius: 50%;
+   border: none;
+   font-size: 24px;
+   font-weight: 900;
+   color: var(--color-white);
+   margin: 0 5px;
 }
