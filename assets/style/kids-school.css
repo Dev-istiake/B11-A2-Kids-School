@@ -423,10 +423,6 @@ p {
    padding: 3px 5px;
 }
 
-/* #footer-sect-cntr .news h1::after{
-   content: "";
-} */
-
 #footer-sect-cntr .news p {
    color: var(--color-white);
    font-weight: 400;
