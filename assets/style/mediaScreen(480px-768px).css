@@ -45,11 +45,11 @@
    }
 
    /* Style of curriculum section */
-   #main-sect {
+   #curriculum-sect {
       padding: 0 5%;
    }
 
-   #curriculum-sect > .title {
+   #curriculum-sect-cntr > .title {
       font-size: 2rem;
    }
 
@@ -78,5 +78,60 @@
       font-size: 0.85rem;
       margin: 15px 0 15px 0;
       line-height: 21px;
+   }
+   /* Style of story section */
+
+   #story-sect {
+      width: 100%;
+      padding: 0 5%;
+   }
+
+   #story-sect-cntr .title {
+      font-size: 2rem;
+   }
+
+   #story-cntr {
+      margin: 80px 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+   }
+
+   #story-cntr .big-card h4 {
+      width: 90%;
+      font-size: 1.2rem;
+      margin: 10px 0 20px 30px;
+   }
+   #story-cntr .big-card p {
+      margin: 0 0 25px 30px;
+      width: 87%;
+      font-size: 0.8rem;
+   }
+
+   #story-cntr > .big-card > button {
+      padding: 12px 15px;
+      left: 5%;
+      top: -5.2%;
+      font-size: 0.9rem;
+   }
+
+   /* Style of card section */
+   #story-cntr .cards > h4 {
+      width: 90%;
+      margin: 4px 0 20px 12px;
+      font-size: 0.7rem;
+      font-weight: 600;
+   }
+
+   #story-cntr > .cards > button {
+      position: relative;
+      padding: 9px 9px;
+      font-size: 0.7rem;
+   }
+
+   #story-sect-cntr .view-btn {
+      padding: 10px 50px;
+      font-size: 15px;
+      font-weight: 600;
    }
 }

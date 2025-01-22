@@ -65,7 +65,7 @@
    }
 
    /* Style of curriculum section */
-   #main-sect {
+   #curriculum-sect {
       padding: 0 5%;
    }
 
@@ -73,12 +73,13 @@
       flex-direction: column;
    }
 
-   #curriculum-sect > .title {
-      font-size: 2rem;
+   #curriculum-sect-cntr > .title {
+      font-size: 1.8rem;
    }
 
    #card-cntr {
       gap: 12px;
+      margin: 45px 0 10px 0;
    }
 
    #card-cntr .card-title {
@@ -98,5 +99,62 @@
       font-size: 0.8rem;
       margin: 20px 0 20px 0;
       line-height: 21px;
+   }
+
+   #slide-btn {
+      display: none;
+   }
+
+   /* Style of story section */
+   #story-sect {
+      width: 100%;
+      padding: 0 5%;
+   }
+
+   #story-sect-cntr .title {
+      font-size: 3.9rem;
+   }
+
+   #story-cntr {
+      margin: 80px 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+   }
+
+   #story-cntr .big-card {
+      display: none;
+   }
+
+   /* Style of card section */
+
+   #story-cntr .card-5,
+   #story-cntr .card-6 {
+      display: block;
+   }
+
+   #story-cntr .cards > h4 {
+      width: 90%;
+      margin: 0 0 10px 12px;
+      font-size: 0.65rem;
+      font-weight: 600;
+      line-height: 21px;
+   }
+
+   #story-cntr > .cards > button {
+      position: relative;
+      padding: 7px 9px;
+      font-size: 0.6rem;
+   }
+
+   #story-sect-cntr .view-btn {
+      padding: 10px 60px;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--color-white);
+      background-color: #000000;
+      line-height: 30px;
+      border-radius: 10px;
+      border: none;
    }
 }
