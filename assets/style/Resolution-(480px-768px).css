@@ -19,6 +19,9 @@
 
    #nav-bar .nav-menu {
       gap: 20px;
+   }
+
+   #nav-bar .nav-menu > li a {
       font-size: 1.08rem;
    }
 
@@ -133,5 +136,90 @@
       padding: 10px 50px;
       font-size: 15px;
       font-weight: 600;
+   }
+
+   /* Style of footer section */
+
+   #footer-sect {
+      position: relative;
+      background-color: var(--color-sky-blue);
+      width: 100%;
+      padding: 0 5%;
+   }
+
+   #footer-cntr {
+      width: 100%;
+      padding: 125px 0 175px 0;
+      gap: 5%;
+   }
+
+   #footer-cntr {
+      gap: 3%;
+   }
+
+   #footer-cntr .edu-details div {
+      margin-bottom: 15px;
+   }
+
+   #footer-cntr .edu-details div h2 {
+      width: 100%;
+      font-size: 1.4rem;
+      line-height: 30px;
+   }
+
+   #footer-cntr .edu-details p {
+      width: 100%;
+      font-size: 13px;
+   }
+
+   #footer-cntr .edu-details div img {
+      width: 26%;
+      margin-right: 5px;
+   }
+
+   #footer-cntr .about {
+      justify-content: flex-start;
+      align-items: center;
+      padding: 0 0;
+   }
+
+   #footer-cntr .about > h2 {
+      margin-bottom: 35px;
+      font-size: 1.3rem;
+   }
+
+   #footer-cntr .about > ul {
+      gap: 8px;
+   }
+
+   #footer-cntr .about > ul > li a {
+      font-size: 15px;
+   }
+
+   #footer-cntr .media {
+      padding-left: 0;
+   }
+
+   #footer-cntr .media .social-media {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+   }
+
+   #footer-cntr .media h2 {
+      font-size: 1.3rem;
+      text-align: center;
+      margin-bottom: 35px;
+   }
+
+   #footer-cntr .media img {
+      margin-right: 3px;
+   }
+
+   #footer-sect .news h1 {
+      width: 30%;
+      font-size: 1.2rem;
    }
 }

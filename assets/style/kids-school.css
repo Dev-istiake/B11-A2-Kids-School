@@ -74,20 +74,24 @@ p {
    align-items: center;
    gap: 32px;
    list-style: none;
+}
+
+#nav-bar .nav-menu > li a {
+   text-decoration: none;
    font-size: 1.25rem;
    font-weight: 500;
 }
 
-#nav-bar .nav-menu li:nth-child(1) {
+#nav-bar .nav-menu li:nth-child(1) a {
    color: var(--primary-color-or);
 }
-#nav-bar .nav-menu li:nth-child(2) {
+#nav-bar .nav-menu li:nth-child(2) a {
    color: var(--color-sky-blue);
 }
-#nav-bar .nav-menu li:nth-child(3) {
+#nav-bar .nav-menu li:nth-child(3) a {
    color: var(--color-bright-turquoise);
 }
-#nav-bar .nav-menu li:nth-child(4) {
+#nav-bar .nav-menu li:nth-child(4) a {
    color: var(--color-electric-violet);
 }
 
@@ -371,4 +375,138 @@ p {
    line-height: 30px;
    border-radius: 10px;
    border: none;
+}
+
+/* Style of footer Section */
+
+#footer-sect {
+   background-color: var(--color-sky-blue);
+   width: 100%;
+   padding: 0 11%;
+}
+
+#footer-sect-cntr {
+   width: 100%;
+   position: relative;
+}
+
+#footer-cntr {
+   width: 100%;
+   padding: 125px 0 175px 0;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: space-between;
+   gap: 5%;
+}
+
+/* Style of news section */
+
+#footer-sect-cntr .news {
+   width: 100%;
+   position: absolute;
+   bottom: 4%;
+   padding: 30px 2%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 15px;
+   box-shadow: inset 0 0 21px 6px #2ed3ec57;
+}
+
+#footer-sect-cntr .news h1 {
+   width: 20%;
+   color: var(--color-white);
+   font-size: 1.6rem;
+   box-shadow: 0 0 28px 30px #2ed3ec57;
+   background-color: #0fb9f7;
+   border-radius: 15px;
+   padding: 3px 5px;
+}
+
+/* #footer-sect-cntr .news h1::after{
+   content: "";
+} */
+
+#footer-sect-cntr .news p {
+   color: var(--color-white);
+   font-weight: 400;
+}
+
+/* Style of footer education details */
+
+#footer-cntr .edu-details div {
+   display: flex;
+   align-items: center;
+   color: var(--color-white);
+   margin-bottom: 40px;
+}
+
+#footer-cntr .edu-details div img {
+   width: 17%;
+   margin-right: 10px;
+}
+
+#footer-cntr .edu-details div h2 {
+   width: 20%;
+   color: var(--color-white);
+   font-size: 2.5rem;
+   font-weight: 700;
+   line-height: 37px;
+}
+
+#footer-cntr .about {
+   display: flex;
+   flex-direction: column;
+}
+
+#footer-cntr .edu-details p {
+   width: 100%;
+   color: var(--color-white);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 25px;
+}
+
+/* Style of footer about */
+
+#footer-cntr .about {
+   padding-left: 40%;
+}
+
+#footer-cntr .about > h2 {
+   color: var(--color-white);
+   margin-bottom: 35px;
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+
+#footer-cntr .about > ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   list-style: none;
+   gap: 20px;
+}
+
+#footer-cntr .about > ul > li a {
+   color: var(--color-white);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 25px;
+   text-decoration: none;
+}
+
+#footer-cntr .media {
+   padding-left: 15%;
+}
+
+#footer-cntr .media h2 {
+   color: var(--color-white);
+   font-size: 1.5rem;
+   font-weight: 600;
+   margin-bottom: 35px;
+}
+
+#footer-cntr .media img {
+   margin-right: 10px;
 }

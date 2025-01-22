@@ -98,4 +98,56 @@
       font-size: 20px;
       font-weight: 700;
    }
+
+   /* Style of footer section */
+
+   #footer-sect {
+      padding: 0 8%;
+   }
+
+   #footer-cntr {
+      gap: 3%;
+   }
+
+   #footer-cntr .edu-details div h2 {
+      width: 20%;
+      font-size: 2rem;
+   }
+
+   #footer-cntr .edu-details p {
+      width: 100%;
+      font-size: 15px;
+   }
+
+   #footer-cntr .edu-details div img {
+      width: 20%;
+      margin-right: 10px;
+   }
+
+   #footer-cntr .about > h2 {
+      margin-bottom: 35px;
+      font-size: 1.4rem;
+   }
+
+   #footer-cntr .about > ul {
+      gap: 15px;
+   }
+
+   #footer-cntr .about > ul > li a {
+      font-size: 16px;
+   }
+
+   #footer-cntr .media h2 {
+      font-size: 1.4rem;
+      margin-bottom: 35px;
+   }
+
+   #footer-cntr .media img {
+      margin-right: 8px;
+   }
+
+   #footer-sect .news h1 {
+      width: 25%;
+      font-size: 1.4rem;
+   }
 }

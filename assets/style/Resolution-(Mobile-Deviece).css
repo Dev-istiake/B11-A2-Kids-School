@@ -109,17 +109,23 @@
    #story-sect {
       width: 100%;
       padding: 0 5%;
+      background: url(../images/bg.png),
+         linear-gradient(0deg, #fea3014d, #ffffff4d 60%);
+   }
+
+   #story-sect-cntr {
+      padding: 0 0 60px 0;
    }
 
    #story-sect-cntr .title {
-      font-size: 3.9rem;
+      font-size: 1.8rem;
    }
 
    #story-cntr {
       margin: 80px 0;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 15px;
+      gap: 10px;
    }
 
    #story-cntr .big-card {
@@ -148,13 +154,98 @@
    }
 
    #story-sect-cntr .view-btn {
-      padding: 10px 60px;
-      font-size: 20px;
+      padding: 10px 50px;
+      font-size: 15px;
       font-weight: 700;
-      color: var(--color-white);
-      background-color: #000000;
+   }
+
+   /* Style of footer section */
+
+   #footer-sect {
+      position: relative;
+      background-color: var(--color-sky-blue);
+      width: 100%;
+      padding: 0 5%;
+   }
+
+   #footer-cntr {
+      width: 100%;
+      padding: 40px 0 150px 0;
+      gap: 5%;
+   }
+
+   #footer-cntr {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 3%;
+   }
+
+   #footer-cntr .edu-details div {
+      margin-bottom: 15px;
+   }
+
+   #footer-cntr .edu-details div h2 {
+      width: 50%;
+      font-size: 2rem;
       line-height: 30px;
-      border-radius: 10px;
-      border: none;
+   }
+
+   #footer-cntr .edu-details p {
+      width: 100%;
+      font-size: 15px;
+   }
+
+   #footer-cntr .edu-details div img {
+      width: 15%;
+      margin-right: 5px;
+   }
+
+   #footer-cntr .about {
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0 0;
+      margin-bottom: 15px;
+   }
+
+   #footer-cntr .about > h2 {
+      margin-bottom: 24px;
+      font-size: 1.3rem;
+   }
+
+   #footer-cntr .about > ul {
+      gap: 8px;
+   }
+
+   #footer-cntr .about > ul > li a {
+      font-size: 16px;
+   }
+
+   #footer-cntr .media {
+      padding-left: 0;
+   }
+
+   #footer-cntr .media .social-media {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 5px;
+   }
+
+   #footer-cntr .media h2 {
+      font-size: 1.3rem;
+      margin-bottom: 25px;
+   }
+
+   #footer-cntr .media img {
+      margin-right: 3px;
+   }
+
+   #footer-sect-cntr .news {
+      padding: 20px 2%;
+   }
+
+   #footer-sect .news h1 {
+      width: 44%;
+      font-size: 1rem;
    }
 }
